@@ -31,6 +31,7 @@ public class MinaFoneQuests : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             quest = true;
+            print("MinaFoneTriggerEnter");
         }
     }
 
@@ -40,6 +41,7 @@ public class MinaFoneQuests : MonoBehaviour
         {
             quest = false;
             isTriggered = false;
+            print("MinaFoneTriggerExit");
         }
     }
 }

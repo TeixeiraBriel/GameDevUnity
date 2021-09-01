@@ -12,7 +12,7 @@ public class _VersionamentoProjeto : MonoBehaviour
      * xxxx data - Referente a data que editou, por exemplo, setembro de 2021 ficaria, (21 -> do ano + 09 -> referente ao mes) logo 2109         
      */
 
-    private string versao = "v1.0.0.2109";
+    private string versao = "v1.0.1.2109";
 
     #region Codigo
     public TextMeshProUGUI txtVersao;

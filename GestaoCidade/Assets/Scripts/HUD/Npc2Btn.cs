@@ -23,7 +23,7 @@ public class Npc2Btn : MonoBehaviour
 
     public void dupli()
     {
-        npc2.active = true;
+        npc2.SetActive(true);
         ContadorColeta.contadorCubosAzuis -= 20;
         ContadorColeta.contadorCubosRosas -= 20;
         repro.interactable = false;

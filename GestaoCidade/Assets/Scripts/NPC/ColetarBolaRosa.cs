@@ -21,15 +21,6 @@ public class ColetarBolaRosa : MonoBehaviour
         {
             Velocidade = 5;
         }
-
-        if (CargaAtual == LimitCarga)
-        {
-            cargaMaximaAtingida = true;
-        }
-        else
-        {
-            cargaMaximaAtingida = false;
-        }
     }
 
     // Update is called once per frame

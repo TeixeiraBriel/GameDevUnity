@@ -12,8 +12,6 @@ public class ColetarBolaRosa : MonoBehaviour
     public Transform fonteBolaRosa;
     public Transform cabana;
 
-    private bool cargaMaximaAtingida;
-
     // Start is called before the first frame update
     void Start()
     {
